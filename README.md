@@ -3,17 +3,6 @@
 
 This Arduino project animates a simple mouth on LED matrix on Wokwi using MAX7219 .
 
-## Hardware Requirements
-
-- Arduino 
-- 4 MAX7219 LED drivers
-- Connecting wires
-
-## Circuit Diagram
-
-- CLK (Clock) -> Arduino Pin 13
-- DIN (Data In) -> Arduino Pin 11
-- CS (Chip Select) -> Arduino Pin 10
 
 ```
 // This version uses bit-banged SPI.
